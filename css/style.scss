@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: rgba(0,0,0,0.54);
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-4 {
+  float: left;
+  width: 33.33333333%;
+}
+
+h1.title {
+  font-size: 3.4em;
+  letter-spacing: 5px;
+  color: #444;
+}
+
+.timer {
+  margin: 100px auto;
+  .time {
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-size: 4em;
+  }
+  .time-label {
+    font-weight: 700;
+    color: #ff5252;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1.title {
+    font-size: 2em;
+  }
+  .timer {
+    .time {
+      font-size: 1.8em;
+    }
+    .time-label {
+      font-size: 0.8em;
+    }
+  }
+}
